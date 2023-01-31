@@ -1,0 +1,65 @@
+.div-1 {
+    height: 500px;
+    width: 500px;
+    /* border: 100px solid red; */
+
+    border-top: 10px solid green;
+    border-bottom: 10px solid rgb(0, 153, 255);
+    border-right: 10px solid rgb(0, 0, 0);
+    border-left: 10px solid rgb(251, 255, 0);
+
+    /* border-radius: 50%; */
+
+    border-radius: 0% 5% 0% 5%;
+    /* float: left; */
+    margin-right: 10px;
+}
+
+.div-2 {
+    height: 400px;
+    width: 400px;
+    border: 10px solid cornflowerblue;
+    border-radius: 0% 5% 0% 5%;
+
+    /* margin: 10px; */
+
+    /* margin: 20px 10px 40px;
+    margin-top: 20px;
+    margin-bottom: 50px;
+    margin-right: 10px;
+    margin-left: 40px; */
+}
+
+.div-2 h2 {
+    /* padding: 10px; */
+    padding-top: 10px;
+    padding-bottom: 20px;
+    padding-left: 20px;
+    padding-right: 30px;
+}
+
+.div-3 {
+    height: 250px;
+    width: 250px;
+    background-color: crimson;
+    /* float: left; */
+    margin: 0 0 10px 20px;
+}
+
+.div-4 {
+    height: 350px;
+    width: 750px;
+    border: 10px solid green;
+    background: green;
+    /* float: left; */
+}
+
+.div-5 {
+    height: 200px;
+    width: 200px;
+    background: rgb(255, 0, 0);
+    border: 5px solid red;
+    border-radius: 50%;
+    margin-top: 75px;
+    margin-left: 270px;
+}
