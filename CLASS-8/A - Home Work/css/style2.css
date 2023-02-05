@@ -1,0 +1,11 @@
+.bg-img{
+    height: 2000px;
+    width: 2000px;
+    background-color: red;
+
+    background-image: url(../image/astronaut1.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed ;
+}
