@@ -1,0 +1,72 @@
+.bg-cyan {
+    background-color: rgb(76, 170, 170);
+}
+
+
+
+
+
+header {
+    height: 100px !important;
+}
+
+header img {
+    height: 100px !important;
+}
+
+.banner {
+    width: 100%;
+}
+
+.navbar {
+    background-color: rgb(20, 43, 43);
+}
+
+.navbar ul li {
+    padding: 0 30px;
+    font-weight: 700;
+}
+
+.navbar ul li:hover {
+    background-color: aqua;
+}
+
+.slider img {
+    height: 400px;
+}
+
+.slider .dot-ind {
+    height: 15px;
+    width: 15px;
+    border-radius: 50%;
+    background-color: aqua;
+}
+
+.layer {
+    background-color: black;
+    height: 300px;
+    width: 350px;
+    opacity: .5;
+
+    position: absolute;
+    top: 55px;
+    left: 190px;
+}
+
+.c-caption {
+    position: absolute;
+    top: 51px;
+    left: 203px;
+    text-align: justify;
+    width: 325px;
+}
+
+.left-content {
+    height: 600px;
+    background-color: turquoise;
+}
+
+.right-content {
+    height: 600px;
+    background-color: cyan !important;
+}

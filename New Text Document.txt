@@ -1,3 +1,16 @@
+
+/* 
+
+    320px-480px -> Mobile Device
+    481px-668px -> TAB Device
+    481px-668px -> Mobile Device
+    669px-1024px -> Laptop Device
+    1025px-1200px -> Laptop Device
+
+*/
+
+
+
 <nav class="navbar navbar-expand-lg bg-body-tertiary">
   <div class="container-fluid">
     <a class="navbar-brand" href="#">Navbar</a>
