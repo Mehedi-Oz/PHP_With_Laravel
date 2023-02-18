@@ -1,0 +1,137 @@
+.gp h1 {
+  color: white;
+}
+
+header .navbar {
+  padding: 0 30px;
+}
+
+.navbar ul li {
+  width: 100px;
+  margin: 2px;
+  padding: 5px;
+}
+
+header .navbar a {
+  color: white;
+}
+
+header .btn {
+  margin-top: 5px;
+}
+
+.h-300 {
+  height: 300px;
+}
+
+.h-500 {
+  height: 500px;
+}
+
+.h-400 {
+  height: 400px;
+}
+
+.h-600 {
+  height: 600px;
+}
+
+.bg {
+  background-image: url(../image/hero-bg.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+  opacity: .9;
+}
+
+header {
+  position: relative;
+}
+
+header .header-text {
+  color: white;
+  font-weight: 700;
+
+  position: absolute;
+  top: 300px;
+  left: 400px;
+}
+
+.content {
+  position: relative;
+}
+
+.content .content-main-text {
+  margin-top: 10px;
+  margin-left: 60px;
+}
+
+.content .about-img {
+  height: 300px;
+
+  position: absolute;
+  top: 25px;
+  left: 748px;
+}
+
+.content-2 {
+  position: relative;
+}
+
+.content-2 .feature-img {
+  height: 300px;
+
+  position: absolute;
+  top: 25px;
+  left: 180px;
+}
+
+.call-to-action {
+  background-image: url(../image/cta-bg.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+  opacity: .9;
+
+  position: relative;
+}
+
+.call-to-action-text {
+  color: white;
+
+  position: absolute;
+  top: 90px;
+}
+
+.content-3 {
+  position: relative;
+}
+
+.content-3 .counts-img {
+  height: 300px;
+
+  position: absolute;
+  top: 25px;
+  left: 180px;
+}
+
+.saulGoodman {
+  background-image: url(../image/testimonials-bg.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+  opacity: .9;
+
+  position:relative;
+}
+
+.testimonial{
+  position: absolute;
+  top:50px
+}
+
+.testimonial img{
+  height: 74px;
+  border-radius: 50%;
+}
+

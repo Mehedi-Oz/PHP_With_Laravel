@@ -83,17 +83,15 @@ nav ul li:hover a {
     height: auto;
 }
 
-.main-content .about-img {
-    box-shadow: 0 0 20px black;
-    border-radius: 10px;
-    height: 300px;
+.about-content {
+    background-color: lightblue;
+    padding: 50px 5px;
 }
 
-.main-content .about-btn {
-    width: 150px;
-    border-radius: 0;
-    font-weight: 700;
-    font-size: 13px;
+.about-content .about-img {
+    height: 300px;
+    box-shadow: 0 0 20px black;
+    border-radius: 10px;
 }
 
 .slider .col-md-12,
@@ -103,43 +101,21 @@ header .col-md-9,
     padding: 0 !important;
 }
 
-header .col-md-3 img {
-    width: 100%;
+.about-content .caption a {
+    border-radius: 0px;
 }
 
-.about-content {
+.project{
     background-color: lightblue;
-    padding: 50px 5px;
 }
 
-.recent-project {
-    text-align: justify;
-}
-
-.project-caption {
-    padding: 20px;
-    background-color: paleturquoise;
-}
-
-.recent-project-heading {
-    font-family: 'Courier New', Courier, monospace;
-    padding-bottom: 15px;
-}
-
-.recent-project-paragraph {
-    font-family: 18px;
-    font-family: 'Courier New', Courier, monospace;
-    text-transform: capitalize;
-    color: mediumblue;
-}
-
-.project-caption .recent-project-heading::after {
+.project .h3-project-caption::after {
     content: ' ';
     position: absolute;
-    border-bottom: 5px solid rgb(66, 71, 71);
-    height: 43px;
-    width: 290px;
-    right: 437px;
+    border-bottom: 5px solid black;
+    height: 40px;
+    width: 300px;
+    right: 682px;
 }
 
 .main-content .project-images {
@@ -147,32 +123,12 @@ header .col-md-3 img {
     border-radius: 10px;
 }
 
-
-.footer {
-    padding: 20px 15px 10px;
-    background-color: powderblue;
+.main-content .project img {
+    height: 100% !important;
+    width: 100% !important;
 }
 
-.footer h5 {
-    margin-bottom: 25px;
-    text-align: center;
-    font-weight: 700;
-    font-family: 'Courier New', Courier, monospace;
+.project-caption{
+    background-color: lightblue;
+    border-radius: 5px;
 }
-
-
-footer .small-footer {
-    padding-top: 15px;
-    background-color: cornflowerblue;
-}
-
-
-
-
-
-
-
-
-
-/* font-family: 'Poppins', sans-serif;
-font-family: 'Source Sans Pro', sans-serif; */
